@@ -1,0 +1,7 @@
+services:
+    - type: web
+      name: tika-server
+      env: docker
+      plan: starter
+      dockerfilePath: ./Dockerfile
+      healthCheckPath: /tika
